@@ -1,0 +1,141 @@
+.clear{
+	clear:both;
+}
+
+#container{
+	width:1024px;
+	margin:auto;
+	position:relative;
+	}
+#container #logo img{
+	width:200px;
+}
+#container #logo h1{
+	position:absolute;
+	text-align:center;
+	left:0;
+	right:0;
+	top:20px;
+}
+
+div#user{
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+
+nav ul, footer{
+	text-align:center;
+}
+nav ul li{
+	display:inline-block;
+	margin : 0px 15px;
+}
+
+article{
+	position:relative;
+	min-height: 200px;
+}
+article header, article main{
+	display:inline-block;
+}
+article header{
+	width:19%;
+	vertical-align:top;
+}
+article main{
+	width:80%;
+}
+article img{
+	text-align :center;
+	width:100%;
+}
+article .actions{
+	position: absolute;
+	bottom:0;
+}
+article .edit img, article .delete img{
+	width:50px;
+}
+
+form{
+	margin-bottom:10px;
+}
+
+a.add, a.edit{
+	float:right;
+}
+
+#user p{
+	display:inline-block;
+	}
+.error{
+	color:red;
+	border: 1px solid red ;
+	padding:10px;
+}
+.info{
+	color:green;
+	border: 1px solid green;
+	padding:10px;
+}
+
+.edit_article img{
+	width : 20%;
+	float:left;
+}
+
+.edit_article label{
+	width : 100px;
+    display: inline-block;
+}
+
+.edit_article input{
+	width : 300px;
+}
+.edit_article textarea{
+	width : 300px;
+    height: 100px;
+}
+.cat{
+	font-style:italic;
+}
+
+article main {
+	position : relative;
+}
+
+article main .price{
+	top:0px;
+	right:100px;
+	color:red;
+	font-size:2em;
+}
+
+article main .price{
+	padding: .5em 0em;
+	height: 7.5em; /* height minus padding */
+	position: absolute;
+	-webkit-transform: rotate(30deg);
+	  -moz-transform: rotate(30deg);
+	   -ms-transform: rotate(30deg);
+	    -o-transform: rotate(30deg);
+	       transform: rotate(30deg);
+	z-index: 1; /* important so the text shows up */
+}
+
+
+table {
+	border-width:1px; 
+	border-style:solid; 
+	border-color:black;
+	width:100%; 
+	border-collapse:collapse;
+ }
+ td{
+	 padding:10px;
+	 text-align:center;
+ }
+ tfoot td{
+	text-align:right;
+ }
